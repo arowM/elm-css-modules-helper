@@ -1,0 +1,139 @@
+@import './variables';
+
+.wrap {
+  padding: $default-padding;
+}
+
+.pack {
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.justifyAround {
+  justify-content: space-around;
+}
+
+.justifyEvenly {
+  justify-content: space-evenly;
+}
+
+.alignStretch {
+  align-items: stretch;
+}
+
+.alignStart {
+  align-items: flex-start;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.alignBaseline {
+  align-items: baseline;
+}
+
+.flexwrap {
+  flex-wrap: wrap;
+}
+
+.expanded {
+  flex: 1;
+}
+
+.expandH {
+  width: 100%;
+}
+
+.expandV {
+  height: 100%;
+}
+
+.pullRight {
+  margin-left: auto;
+}
+
+.onPC {
+  display: block;
+
+  @media screen and (max-width: $sp-size) {
+    display: none;
+  }
+}
+
+.onTablet {
+  display: none;
+
+  @media screen and (max-width: $tablet-size) {
+    display: block;
+  }
+}
+
+.onSP {
+  display: none;
+
+  @media screen and (max-width: $sp-size) {
+    display: block;
+  }
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.minVh100 {
+  min-height: 100vh;
+}
+
+.vw100 {
+  width: 100vw;
+}
+
+.scrollY {
+  overflow-y: scroll;
+}
+
+.scrollX {
+  overflow-x: scroll;
+}
+
+.hideOverflowY {
+  overflow-y: hidden;
+}
+
+.hideOverflowX {
+  overflow-x: hidden;
+}
+
+.posRelative {
+  position: relative;
+}

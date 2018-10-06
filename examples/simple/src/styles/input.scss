@@ -1,0 +1,8 @@
+@import './variables';
+
+.default {
+  padding: 0.2em;
+  border: solid 2px $base-color3;
+  border-radius: 0.4em;
+  width: 100%;
+}
