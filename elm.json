@@ -3,7 +3,7 @@
     "name": "arowM/elm-css-modules-helper",
     "summary": "Provide helper functions to handle CSS modules in Elm without hacks",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "CssClass"
     ],
