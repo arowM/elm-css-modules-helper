@@ -2,6 +2,8 @@
 
 Provide helper functions to handle CSS modules in Elm without hacks.
 
+[![sakura-chan-eating-corn](https://user-images.githubusercontent.com/1481749/46577944-349f6300-ca2d-11e8-92bd-c5efbdc9a13b.jpg)](https://twitter.com/hashtag/%E3%81%95%E3%81%8F%E3%82%89%E3%81%A1%E3%82%83%E3%82%93%E6%97%A5%E8%A8%98?src=hash)
+
 ## What is this?
 
 This is an Elm library making it easy to use [CSS modules](https://github.com/css-modules/css-modules) in Elm.
