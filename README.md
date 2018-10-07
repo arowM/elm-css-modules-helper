@@ -52,7 +52,13 @@ The main strategy of `elm-css` is writing inline style as an Elm code, but there
     Almost all styles are checked by eyes, so type safe manner does not give us as much benefits as program codes.
     In spite of such week benefits, by forcing to use type safe property names decreases productivity.
 
+1. Styles can be shared only between Elm codes
+
+    If your project eventually introducing Elm, it's a pain to translate CSS to Elm (or Elm to CSS).
+
 CSS modules is actually just a CSS file, so there are no defeats that `elm-css` has.
+
+Of course, `elm-css` is a great tool in the term of the way to do all the things in Elm, but if your team is familiar with modern CSS tool chains, CSS modules is suitable for you.
 
 ## Why not `elm-css-modules-loader`?
 
