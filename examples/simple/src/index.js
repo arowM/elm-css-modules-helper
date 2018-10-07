@@ -22,9 +22,9 @@ var app = Elm.Main.init({
   node: wrapper,
   // Pass CSS class name JSON object to Elm via flags.
   flags: {
-    layout,
-    input,
-    label,
-    app,
+    layout: layout,
+    input: input,
+    label: label,
+    app: app,
   },
 });
