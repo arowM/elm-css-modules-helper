@@ -204,7 +204,7 @@ label_ : Style -> String -> Html Msg
 label_ style str =
     -- Make sure that this debug message is only shown at page load.
     -- It is because `WithContext.lazy` works.
-    Debug.log "label_ was rerendered" <|
+    Debug.log "label_ was called" <|
         Html.div
             [ class style.label "default"
             ]
@@ -224,7 +224,7 @@ input_ : Style -> (String -> Msg) -> Maybe String -> Html Msg
 input_ style onInput val =
     -- Make sure that this debug message is only shown at page load and when user inputs.
     -- It is because `WithContext.lazy` works.
-    Debug.log "input_ was rerendered" <|
+    Debug.log "input_ was called" <|
         Html.input
             [ class style.input "default"
             , Attributes.type_ "text"

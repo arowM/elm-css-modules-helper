@@ -169,7 +169,7 @@ label style str =
 
 label_ : Style -> String -> Html Msg
 label_ style str =
-    Debug.log "label_ was rerendered" <|
+    Debug.log "label_ was called" <|
         Html.div
             [ class style.label "default"
             ]
@@ -186,7 +186,7 @@ input style onInput val =
 
 input_ : Style -> (String -> Msg) -> Maybe String -> Html Msg
 input_ style onInput val =
-    Debug.log "input_ was rerendered" <|
+    Debug.log "input_ was called" <|
         Html.input
             [ class style.input "default"
             , Attributes.type_ "text"
